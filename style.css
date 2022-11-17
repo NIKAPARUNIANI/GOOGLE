@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(32,33,36);
+    font-family: arial, sans-serif;
+}
+
+/* PHOTO GOOGLE */
+.googlephoto {    
+    width: 272px;
+    height: 92px;
+    margin: 0 auto;
+    margin-top: 260px;
+}
+
+
+/* SEARCH */
+.input {
+    border: none;
+    width: 500px;
+    height: 50px;
+    margin: 0 5px 0 5px;
+    color: white;
+    font-size: 18px;
+    outline: none;
+}
+
+.allinput{
+    display: flex;
+    border: 2px solid rgb(154,160,166);
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    padding-top: 5px;
+    height: 45px;
+    width: 585px;
+    overflow: hidden;
+}
+
+.loop, .camera {
+    color: rgb(154,160,166);
+    cursor: pointer;
+}
+
+.loop {
+    padding-left: 20px;
+}
+
+/* BUTTONS */
+
+.allbutton {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 30px;
+    align-items: center;
+    height: 45px;
+    width: 280px;
+}
+
+.firstbutton, .secondbutton {
+    background-color: rgb(48,49,52);
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.firstbutton {
+    margin-left: 15px;
+}
+
+.secondbutton {
+    margin-left: 15px;
+}
+
+/* TEXT */
+
+.text {
+    color: rgb(189,193,198);
+    text-align: center;
+    margin-top: 30px;
+    font-size: small;
+}
+
+.text a {
+    color: rgb(138,180,248);
+}
